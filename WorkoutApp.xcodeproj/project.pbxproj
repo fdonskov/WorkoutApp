@@ -54,14 +54,38 @@
 		93291A702930D46C00C6E740 /* WorkoutApp */ = {
 			isa = PBXGroup;
 			children = (
+				93291A892930D5C800C6E740 /* Sources */,
+				93291A882930D5A500C6E740 /* Resources */,
+			);
+			path = WorkoutApp;
+			sourceTree = "<group>";
+		};
+		93291A872930D57A00C6E740 /* Application */ = {
+			isa = PBXGroup;
+			children = (
 				93291A712930D46C00C6E740 /* AppDelegate.swift */,
 				93291A732930D46C00C6E740 /* SceneDelegate.swift */,
-				93291A752930D46C00C6E740 /* ViewController.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		93291A882930D5A500C6E740 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				93291A7A2930D46E00C6E740 /* Assets.xcassets */,
 				93291A7C2930D46E00C6E740 /* LaunchScreen.storyboard */,
 				93291A7F2930D46E00C6E740 /* Info.plist */,
 			);
-			path = WorkoutApp;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		93291A892930D5C800C6E740 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				93291A872930D57A00C6E740 /* Application */,
+				93291A752930D46C00C6E740 /* ViewController.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,7 +301,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6U62DU83J9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WorkoutApp/Info.plist;
+				INFOPLIST_FILE = WorkoutApp/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
@@ -307,7 +331,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6U62DU83J9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WorkoutApp/Info.plist;
+				INFOPLIST_FILE = WorkoutApp/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
