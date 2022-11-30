@@ -27,6 +27,7 @@
 		93291AAD2935CD8D00C6E740 /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93291AAC2935CD8D00C6E740 /* WeekView.swift */; };
 		93291AAF2935CECC00C6E740 /* WeekdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93291AAE2935CECC00C6E740 /* WeekdayView.swift */; };
 		93291AB1293617A000C6E740 /* Date + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93291AB0293617A000C6E740 /* Date + ext.swift */; };
+		93291AB52936869800C6E740 /* BaseInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93291AB42936869800C6E740 /* BaseInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		93291AAC2935CD8D00C6E740 /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
 		93291AAE2935CECC00C6E740 /* WeekdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayView.swift; sourceTree = "<group>"; };
 		93291AB0293617A000C6E740 /* Date + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + ext.swift"; sourceTree = "<group>"; };
+		93291AB42936869800C6E740 /* BaseInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,10 +144,10 @@
 			isa = PBXGroup;
 			children = (
 				93291AB229361DD700C6E740 /* Navigation */,
-				93291A9D29347B9D00C6E740 /* Settings */,
-				93291A9C29347B9800C6E740 /* Progress */,
-				93291A9B29347B9200C6E740 /* Session */,
 				93291A9A29347B8900C6E740 /* Overview */,
+				93291A9B29347B9200C6E740 /* Session */,
+				93291A9C29347B9800C6E740 /* Progress */,
+				93291A9D29347B9D00C6E740 /* Settings */,
 				93291A9929347B7F00C6E740 /* Base */,
 			);
 			path = Controllers;
@@ -154,8 +156,8 @@
 		93291A9929347B7F00C6E740 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				93291AB32936868A00C6E740 /* View */,
 				93291A952934736700C6E740 /* BaseController.swift */,
-				93291AA92935351000C6E740 /* BaseView.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -219,6 +221,15 @@
 				93291A92293471EB00C6E740 /* NavBarController.swift */,
 			);
 			path = Navigation;
+			sourceTree = "<group>";
+		};
+		93291AB32936868A00C6E740 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				93291AA92935351000C6E740 /* BaseView.swift */,
+				93291AB42936869800C6E740 /* BaseInfoView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,6 +311,7 @@
 				93291A8B2930D78200C6E740 /* TabBarController.swift in Sources */,
 				93291A722930D46C00C6E740 /* AppDelegate.swift in Sources */,
 				93291A9F29347BB800C6E740 /* SessionController.swift in Sources */,
+				93291AB52936869800C6E740 /* BaseInfoView.swift in Sources */,
 				93291AA62934C36B00C6E740 /* SecondaryButton.swift in Sources */,
 				93291AA129347BE600C6E740 /* ProgressController.swift in Sources */,
 				93291A93293471EB00C6E740 /* NavBarController.swift in Sources */,
