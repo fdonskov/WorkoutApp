@@ -9,9 +9,26 @@ import UIKit
 
 final class OverviewNavBar: BaseView {
     
-    private let titleLabel = UILabel()
-    private let allWorkoutsButton = SecondaryButton()
-    private let addButton = UIButton()
+    private let titleLabel: UILabel = {
+        let lable = UILabel()
+        lable.text = Resources.Strings.NavBar.overview
+        lable.textColor = Resources.Colors.titleGray
+        lable.font = Resources.Fonts.helveticaRegular(with: 22)
+        return lable
+    }()
+    
+    private let allWorkoutsButton: WAButton = {
+        let button = WAButton(with: .secondary)
+        button.setTitle(Resources.Strings.OverView.allWorkoutsButton) 
+        return button
+    }()
+    
+    private let addButton: UIButton = {
+        let button = UIButton()
+        button.setImage(Resources.Images.Common.add, for: .normal)
+        return button
+    }()
+    
     private let weekView = WeekView()
     
     override func layoutSubviews() {
@@ -52,7 +69,6 @@ extension OverviewNavBar {
             allWorkoutsButton.topAnchor.constraint(equalTo: addButton.topAnchor),
             allWorkoutsButton.trailingAnchor.constraint(equalTo: addButton.leadingAnchor, constant: -15),
             allWorkoutsButton.heightAnchor.constraint(equalToConstant: 28),
-            allWorkoutsButton.widthAnchor.constraint(equalToConstant: 130),
             
             titleLabel.centerYAnchor.constraint(equalTo: addButton.centerYAnchor),
             titleLabel.trailingAnchor.constraint(equalTo: allWorkoutsButton.leadingAnchor),
@@ -69,13 +85,5 @@ extension OverviewNavBar {
     override func configureAppearance() {
         super.configureAppearance()
         backgroundColor = .white
-        
-        titleLabel.text = Resources.Strings.NavBar.overview
-        titleLabel.textColor = Resources.Colors.titleGray
-        titleLabel.font = Resources.Fonts.helveticaRegular(with: 22)
-        
-        allWorkoutsButton.setTitle(Resources.Strings.OverView.allWorkoutsButton)
-        
-        addButton.setImage(Resources.Images.Common.add, for: .normal)
     }
 }
