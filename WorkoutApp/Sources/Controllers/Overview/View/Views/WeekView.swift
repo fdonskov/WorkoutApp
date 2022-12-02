@@ -39,9 +39,9 @@ extension WeekView {
         stackView.spacing = 7
         stackView.distribution = .fillEqually
         
-        var weekdays = calendar.shortStandaloneWeekdaySymbols
+        var weekdays = Date.calendar.shortStandaloneWeekdaySymbols
         
-        if calendar.firstWeekday == 1 {
+        if Date.calendar.firstWeekday == 2 {
             let sunDay = weekdays.remove(at: 0)
             weekdays.append(sunDay)
         }
