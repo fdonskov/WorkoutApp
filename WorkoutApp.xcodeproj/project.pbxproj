@@ -16,7 +16,7 @@
 		93291A8E2930D81A00C6E740 /* UIColor + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93291A8D2930D81A00C6E740 /* UIColor + ext.swift */; };
 		93291A912930D8C400C6E740 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93291A902930D8C400C6E740 /* Resources.swift */; };
 		93291A93293471EB00C6E740 /* NavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93291A92293471EB00C6E740 /* NavBarController.swift */; };
-		93291A962934736700C6E740 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93291A952934736700C6E740 /* BaseController.swift */; };
+		93291A962934736700C6E740 /* WABaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93291A952934736700C6E740 /* WABaseController.swift */; };
 		93291A98293475B400C6E740 /* UIView + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93291A97293475B400C6E740 /* UIView + ext.swift */; };
 		93291A9F29347BB800C6E740 /* SessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93291A9E29347BB800C6E740 /* SessionController.swift */; };
 		93291AA129347BE600C6E740 /* ProgressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93291AA029347BE600C6E740 /* ProgressController.swift */; };
@@ -44,7 +44,7 @@
 		93291A8D2930D81A00C6E740 /* UIColor + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + ext.swift"; sourceTree = "<group>"; };
 		93291A902930D8C400C6E740 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
 		93291A92293471EB00C6E740 /* NavBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarController.swift; sourceTree = "<group>"; };
-		93291A952934736700C6E740 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		93291A952934736700C6E740 /* WABaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABaseController.swift; sourceTree = "<group>"; };
 		93291A97293475B400C6E740 /* UIView + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + ext.swift"; sourceTree = "<group>"; };
 		93291A9E29347BB800C6E740 /* SessionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionController.swift; sourceTree = "<group>"; };
 		93291AA029347BE600C6E740 /* ProgressController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressController.swift; sourceTree = "<group>"; };
@@ -162,7 +162,7 @@
 			children = (
 				93291AB32936868A00C6E740 /* View */,
 				93291AA52934C36B00C6E740 /* WAButton.swift */,
-				93291A952934736700C6E740 /* BaseController.swift */,
+				93291A952934736700C6E740 /* WABaseController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -351,7 +351,7 @@
 				93291A8E2930D81A00C6E740 /* UIColor + ext.swift in Sources */,
 				93291AAA2935351100C6E740 /* BaseView.swift in Sources */,
 				93291AAF2935CECC00C6E740 /* WeekdayView.swift in Sources */,
-				93291A962934736700C6E740 /* BaseController.swift in Sources */,
+				93291A962934736700C6E740 /* WABaseController.swift in Sources */,
 				93291A742930D46C00C6E740 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

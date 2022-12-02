@@ -5,7 +5,7 @@
 //  Created by Федор Донсков on 28.11.2022.
 //
 
-class SettingsController: BaseController {
+class SettingsController: WABaseController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
