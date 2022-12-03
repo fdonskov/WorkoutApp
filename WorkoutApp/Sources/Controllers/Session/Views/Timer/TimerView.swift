@@ -26,7 +26,6 @@ final class TimerView: WABaseInfoView {
     
     private let elapsedTimeValueLabel: UILabel = {
         let label = UILabel()
-        label.text = "02:15"
         label.font = Resources.Fonts.helveticaRegular(with: 46)
         label.textColor = Resources.Colors.titleGray
         label.textAlignment = .center
@@ -44,7 +43,6 @@ final class TimerView: WABaseInfoView {
     
     private let remainingTimeValueLabel: UILabel = {
         let label = UILabel()
-        label.text = "12:45"
         label.font = Resources.Fonts.helveticaRegular(with: 13)
         label.textColor = Resources.Colors.titleGray
         label.textAlignment = .center
@@ -106,9 +104,11 @@ final class TimerView: WABaseInfoView {
         guard self.timerProgress > 0 else { return }
         timer.invalidate()
         
-        timer = Timer.scheduledTimer(withTimeInterval: 0.01, repeats: true, block: { [weak self] timer in
+        timer = Timer.scheduledTimer(withTimeInterval: 0.01,
+                                     repeats: true,
+                                     block: { [weak self] timer in
             guard let self = self else { return }
-            self.timerProgress -= 0.1
+            self.timerProgress -= self.timerDuration * 0.02
             
             if self.timerProgress <= 0 {
                 self.timerProgress = 0
