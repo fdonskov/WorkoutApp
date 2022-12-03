@@ -161,7 +161,6 @@
 			isa = PBXGroup;
 			children = (
 				93291AB32936868A00C6E740 /* View */,
-				93291AA52934C36B00C6E740 /* WAButton.swift */,
 				93291A952934736700C6E740 /* WABaseController.swift */,
 			);
 			path = Base;
@@ -233,6 +232,7 @@
 			children = (
 				93291AA92935351000C6E740 /* BaseView.swift */,
 				93291AB42936869800C6E740 /* WABaseInfoView.swift */,
+				93291AA52934C36B00C6E740 /* WAButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
