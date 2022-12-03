@@ -15,11 +15,7 @@ class SessionController: WABaseController {
     
     override func navBarLeftButtonHandler() {
         if timerView.state == .isStopped {
-            timerView.startTimer { _ in
-                DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-                    self.navBarRightButtonHandler()
-                }
-            }
+            timerView.startTimer()
         } else {
             timerView.pauseTimer()
         }
