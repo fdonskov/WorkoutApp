@@ -251,6 +251,8 @@
 			isa = PBXGroup;
 			children = (
 				93BC74022939AEB200CA0A1D /* Timer */,
+				93BC7407293B7AAF00CA0A1D /* Stats */,
+				93BC7408293B7AB700CA0A1D /* Steps */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -263,6 +265,20 @@
 				93BC7405293B574700CA0A1D /* PercentView.swift */,
 			);
 			path = Timer;
+			sourceTree = "<group>";
+		};
+		93BC7407293B7AAF00CA0A1D /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		93BC7408293B7AB700CA0A1D /* Steps */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Steps;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

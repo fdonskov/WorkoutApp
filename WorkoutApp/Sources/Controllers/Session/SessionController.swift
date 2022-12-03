@@ -10,6 +10,8 @@ import UIKit
 class SessionController: WABaseController {
     
     private let timerView = TimerView()
+    private let statsView = WABaseInfoView(with: Resources.Strings.Session.workoutStats)
+    private let stepsView = WABaseInfoView(with: Resources.Strings.Session.stepsCounter)
     
     private let timerDuration = 3.0
     
@@ -39,6 +41,8 @@ extension SessionController {
         super.setupViews()
         
         view.setupView(timerView)
+        view.setupView(statsView)
+        view.setupView(stepsView)
     }
     
     override func layoutViews() {
@@ -47,7 +51,9 @@ extension SessionController {
         NSLayoutConstraint.activate([
             timerView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 15),
             timerView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 15),
-            timerView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -15)
+            timerView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -15),
+            
+            
         ])
     }
     
