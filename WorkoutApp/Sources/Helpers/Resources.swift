@@ -55,6 +55,7 @@ enum Resources {
             static let workoutStats = "Workout stats"
             static let averagePace = "Average pace"
             static let heartRate = "Heart rate"
+            static let totalDistance = "Total distance"
             static let totalSteps = "Total steps"
             
             static let stepsCounter = "Steps Counter"

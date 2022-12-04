@@ -31,6 +31,8 @@
 		93BC74012939AE2500CA0A1D /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BC74002939AE2500CA0A1D /* TimerView.swift */; };
 		93BC74042939AEBE00CA0A1D /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BC74032939AEBE00CA0A1D /* ProgressView.swift */; };
 		93BC7406293B574700CA0A1D /* PercentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BC7405293B574700CA0A1D /* PercentView.swift */; };
+		93BC740A293CAE1700CA0A1D /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BC7409293CAE1700CA0A1D /* StatsView.swift */; };
+		93BC740D293CAE6800CA0A1D /* StatsItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BC740C293CAE6800CA0A1D /* StatsItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +62,8 @@
 		93BC74002939AE2500CA0A1D /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		93BC74032939AEBE00CA0A1D /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		93BC7405293B574700CA0A1D /* PercentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentView.swift; sourceTree = "<group>"; };
+		93BC7409293CAE1700CA0A1D /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		93BC740C293CAE6800CA0A1D /* StatsItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -270,6 +274,8 @@
 		93BC7407293B7AAF00CA0A1D /* Stats */ = {
 			isa = PBXGroup;
 			children = (
+				93BC740B293CAE4400CA0A1D /* Views */,
+				93BC7409293CAE1700CA0A1D /* StatsView.swift */,
 			);
 			path = Stats;
 			sourceTree = "<group>";
@@ -279,6 +285,14 @@
 			children = (
 			);
 			path = Steps;
+			sourceTree = "<group>";
+		};
+		93BC740B293CAE4400CA0A1D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				93BC740C293CAE6800CA0A1D /* StatsItemView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -366,11 +380,13 @@
 				93291AA62934C36B00C6E740 /* WAButton.swift in Sources */,
 				93291AA129347BE600C6E740 /* ProgressController.swift in Sources */,
 				93291A93293471EB00C6E740 /* NavBarController.swift in Sources */,
+				93BC740D293CAE6800CA0A1D /* StatsItemView.swift in Sources */,
 				93291A912930D8C400C6E740 /* Resources.swift in Sources */,
 				93BC7406293B574700CA0A1D /* PercentView.swift in Sources */,
 				93291A8E2930D81A00C6E740 /* UIColor + ext.swift in Sources */,
 				93291AAA2935351100C6E740 /* WABaseView.swift in Sources */,
 				93291AAF2935CECC00C6E740 /* WeekdayView.swift in Sources */,
+				93BC740A293CAE1700CA0A1D /* StatsView.swift in Sources */,
 				93291A962934736700C6E740 /* WABaseController.swift in Sources */,
 				93291A742930D46C00C6E740 /* SceneDelegate.swift in Sources */,
 			);
