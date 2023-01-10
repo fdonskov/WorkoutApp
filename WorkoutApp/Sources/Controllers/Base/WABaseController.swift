@@ -18,7 +18,7 @@ class WABaseController: UIViewController {
         super.viewDidLoad()
         
         setupViews()
-        layoutViews()
+        constraintViews()
         configureAppearance()
     }
 }
@@ -27,7 +27,7 @@ class WABaseController: UIViewController {
     
     func setupViews() {}
     
-    func layoutViews() {}
+    func constraintViews() {}
     
     func configureAppearance() {
         view.backgroundColor = Resources.Colors.background
