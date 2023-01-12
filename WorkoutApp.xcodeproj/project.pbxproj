@@ -41,6 +41,7 @@
 		93DF2814296E9EBA000F3108 /* WAChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DF2813296E9EBA000F3108 /* WAChartsView.swift */; };
 		93DF2816296EA114000F3108 /* YAxisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DF2815296EA114000F3108 /* YAxisView.swift */; };
 		93DF2818296EA433000F3108 /* XAxisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DF2817296EA433000F3108 /* XAxisView.swift */; };
+		93DF281A296FD9C2000F3108 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DF2819296FD9C2000F3108 /* ChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		93DF2813296E9EBA000F3108 /* WAChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAChartsView.swift; sourceTree = "<group>"; };
 		93DF2815296EA114000F3108 /* YAxisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAxisView.swift; sourceTree = "<group>"; };
 		93DF2817296EA433000F3108 /* XAxisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XAxisView.swift; sourceTree = "<group>"; };
+		93DF2819296FD9C2000F3108 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -371,6 +373,7 @@
 			children = (
 				93DF2815296EA114000F3108 /* YAxisView.swift */,
 				93DF2817296EA433000F3108 /* XAxisView.swift */,
+				93DF2819296FD9C2000F3108 /* ChartView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -474,6 +477,7 @@
 				93291AAA2935351100C6E740 /* WABaseView.swift in Sources */,
 				93291AAF2935CECC00C6E740 /* WeekdayView.swift in Sources */,
 				93BC7412293DAF7F00CA0A1D /* WABarsView.swift in Sources */,
+				93DF281A296FD9C2000F3108 /* ChartView.swift in Sources */,
 				93BC740A293CAE1700CA0A1D /* StatsView.swift in Sources */,
 				93291A962934736700C6E740 /* WABaseController.swift in Sources */,
 				93291A742930D46C00C6E740 /* SceneDelegate.swift in Sources */,
